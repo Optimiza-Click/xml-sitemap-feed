@@ -1,0 +1,11 @@
+{
+  "name": "optimiza/xml-sitemap-feed",
+  "description": "A WordPress plugin for xml sitemap",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.4.16"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}

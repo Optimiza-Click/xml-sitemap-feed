@@ -173,7 +173,7 @@ class XMLSitemapFeed {
 								);
 		}
 
-		$active_arr = array('post','page');
+		$active_arr = ['post','page', 'seo_entry', 'product', 'noticias', 'voucher', 'portfolio_page'];
 
 		foreach ( $active_arr as $name )
 			if ( isset($this->defaults['post_types'][$name]) )
